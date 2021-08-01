@@ -2,3 +2,26 @@
     font-family: 'Press Start 2P', cursive;
 }
 
+.headline {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.gamepad {
+    padding-right: 10px;
+    font-size: 3rem;
+}
+.box {
+    box-sizing: border-box;
+    border: 10px solid black;
+    width: 90vmax;
+    height: 40vmax;
+    align-items: center;
+}
+
+.question {
+    margin: 5px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    justify-items: left;
+}

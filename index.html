@@ -8,35 +8,38 @@
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Document</title>
 </head>
 <body>
-    <h1 class="headline"><i class="fas fa-gamepad"></i>Nintendo Quiz</h1>
+    <h1 class="headline"><i class="gamepad fas fa-gamepad"></i>Nintendo Quiz</h1>
     
-    <!--Question area-->
-    <div class="question container">
-        <h3 class="header">Question</h3>
-            <p class="question">Question</p>
-            
-        
+    <div class="box container col-12">    
 
-    </div>
+    <!--Question area-->
+        <div class="questions container col-12">
+            <h3 class="header">Question</h3>
+                <p class="question ">Question</p>
+
+        </div>
 
     <!--Answer alternatives-->
-    <div class="alternatives container">
-        <div class="answer1">1:</div>
-        <div class="answer2">2:</div>
-        <div class="answer3">3:</div>
-        <div class="answer4">4:</div>
+        <div class="alternatives container">
+            <div class="answer1">1:</div>
+            <div class="answer2">2:</div>
+            <div class="answer3">3:</div>
+            <div class="answer4">4:</div>
 
-    </div>
+        </div>
 
     <!--Functions-->
-    <div class="points">
-        <p class="points">Points: <span id="counter">0</span></p>
-        <button class="nextQuestion btn btn--grey">Next</button>
+        <div class="points">
+            <p class="points">Points: <span id="counter">0</span></p>
+            <button class="nextQuestion btn btn--big btn--grey">Next</button>
+
+        </div>
 
     </div>
 
