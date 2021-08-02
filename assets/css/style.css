@@ -39,10 +39,14 @@ h1 {
     text-align: center;    
 }
 
+.question {
+    padding-top: 50%;
+}
+
 .points {
     position: absolute;
     bottom: 10px;
-    
+    right: 20px;
 }
 
 
@@ -54,9 +58,13 @@ h1 {
     overflow: hidden;
 }
 
+.alternatives {
+    padding-top: 25%;
+}
+
 .nextQuestion {
     position: absolute;
     bottom: 10px;
-
+    right: 10px;
 }
 
