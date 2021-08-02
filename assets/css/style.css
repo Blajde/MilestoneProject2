@@ -1,27 +1,62 @@
 * {
     font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 20px;
 }
 
 .headline {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2rem;   
+    padding: 20px; 
 }
 
 .gamepad {
     padding-right: 10px;
     font-size: 3rem;
 }
+
 .box {
     box-sizing: border-box;
     border: 10px solid black;
     width: 90vmax;
     height: 40vmax;
     align-items: center;
+    display: flex;
+    
 }
 
-.question {
+.questions {
     margin: 5px;
+    height: 90%;
     box-sizing: border-box;
     border: 5px solid black;
-    justify-items: left;
+    flex: 1;
+    overflow: hidden;
+    text-align: center;    
 }
+
+.points {
+    position: absolute;
+    bottom: 10px;
+    
+}
+
+
+.answerBox {
+    margin: 5px;
+    height: 90%;
+    box-sizing: border-box;
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+.nextQuestion {
+    position: absolute;
+    bottom: 10px;
+
+}
+
