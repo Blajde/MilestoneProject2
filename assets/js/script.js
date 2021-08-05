@@ -1,6 +1,8 @@
 
 //Start game//
 function startGame()
+//Display question//
+function displayQuestion()
 //First question//
 function checkAnswer()
 //Next question//
