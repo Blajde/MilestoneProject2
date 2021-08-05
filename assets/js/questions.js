@@ -4,7 +4,7 @@ let questionCollection = [
         1: "Shigefumi Hino",
         2: "Koji Kondo",
         3: "Shigeru Miyamoto",
-        4: "Saturo Okada"
+        4: "Saturo Okada",
         rightAnswer: "3",
     },
     {
@@ -17,7 +17,7 @@ let questionCollection = [
     },
     {
         
-        question "What's the name of the main protagonist in the Legend of Zelda-franchise?",
+        question: "What's the name of the main protagonist in the Legend of Zelda-franchise?",
         1: "Zelda",
         2: "Navi",
         3: "Zora",
