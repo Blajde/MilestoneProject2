@@ -14,6 +14,11 @@ h1 {
     padding: 20px; 
 }
 
+.header {
+    text-align: center;
+    font-size: 2rem;   
+}
+
 .gamepad {
     padding-right: 10px;
     font-size: 3rem;

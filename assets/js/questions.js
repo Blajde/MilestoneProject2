@@ -1,4 +1,4 @@
-let questionCollection = [
+let questions = [
     {
         question: "What's the name of the founder of Super Mario?",
         1: "Shigefumi Hino",
