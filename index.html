@@ -21,7 +21,7 @@
     <!--Question area-->
         <div class="questions container col-4">
             <h3 class="header">Question</h3>
-                <p class="question">Placeholder</p>
+                <p id="question">Placeholder</p>
 
                 <div class="points container">
                     <p class="points">Points: <span id="counter">0</span></p>
@@ -33,19 +33,19 @@
     <!--Answer alternatives-->
         <div class="answerBox col-8">
             <div class="alternatives container">
-                <input class="answer1" type="radio" name="answer1">
+                <input id="answerOne" type="radio" name="answer1">
                 <label for="answer1">1</label><br>
                 
-                <input type="radio" name="answer1">
+                <input id="answerTwo" type="radio" name="answer2">
                 <label for="answer2">2</label><br>
                 
-                <input type="radio" name="answer1">
+                <input id="answerThree" type="radio" name="answer3">
                 <label for="answer3">3</label><br>
                 
-                <input type="radio" name="answer1">
+                <input id="answerFour" type="radio" name="answer4">
                 <label for="answer4">4</label><br>
 
-                <button class="nextQuestion btn btn-lg btn--grey d-flex justify-content-end">Next</button>
+                <button data-type="nextQuestion" class="nextQuestion btn btn-lg btn--grey d-flex justify-content-end">Next</button>
             </div>
 
         </div>

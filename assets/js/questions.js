@@ -1,6 +1,6 @@
-let questions = [
+let gameQuestions = [
     {
-        question: "What's the name of the founder of Super Mario?",
+        question: "What's the name of the founder of Super Mario?", 
         1: "Shigefumi Hino",
         2: "Koji Kondo",
         3: "Shigeru Miyamoto",

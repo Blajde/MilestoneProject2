@@ -1,15 +1,30 @@
 
+
 //Start game//
-function startGame()
+function startGame() {
+
+}
 //Display question//
-function displayQuestion()
+function displayQuestion(question) {
+    document.getElementById('question').textContent = question;
+}
 //First question//
-function checkAnswer()
+function checkAnswer() {
+    if checked == rightAnswer(turnGreen)
+    } else {
+        turnRed
+    }
 //Next question//
-function nextQuestion()
+function nextQuestion() {
+    onClick == nextQuestion
+}
 //Game end//
-function finishGame()
+function finishGame() {
+    if (i = 1; i==10; i++) // alert box//
+}
 //Getting points//
-function correctAnswer()
+function correctAnswer() {
+    document.getElementById("counter")
+}
 //Wrong answer//
 function incorrectAnswer()
