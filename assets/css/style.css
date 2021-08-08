@@ -63,8 +63,13 @@ h1 {
     overflow: hidden;
 }
 
-.alternatives {
+.myAlternatives {
     padding-top: 25%;
+}
+
+.alt {
+    padding-left: 10px;
+    list-style-type: none;
 }
 
 .nextQuestion {

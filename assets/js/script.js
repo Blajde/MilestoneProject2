@@ -9,6 +9,7 @@ let answerFour = document.getElementById('answerFour');
 document.addEventListener('DOMContentLoaded', function(){
     question.textContent = gameQuestions[0]['question']
 
+    alternatives.textContent = gameQuestions[0]['alternatives']
 
 })
 
