@@ -1,15 +1,12 @@
 let question = document.getElementById('myQuestion');
-let answerOne = document.getElementById('answerOne');
-let answerTwo = document.getElementById('answerTwo');
-let answerThree = document.getElementById('answerThree');
-let answerFour = document.getElementById('answerFour');
-
+let alternatives = document.getElementsByClassName('alt');
 
 
 document.addEventListener('DOMContentLoaded', function(){
     question.textContent = gameQuestions[0]['question']
 
-    alternatives.textContent = gameQuestions[0]['alternatives']
+    alt.textContent = gameQuestions[i]['alternatives']
+        
 
 })
 
