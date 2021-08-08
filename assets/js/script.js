@@ -5,8 +5,6 @@ let alternatives = document.getElementsByClassName('alt');
 document.addEventListener('DOMContentLoaded', function(){
     question.textContent = gameQuestions[0]['question']
 
-    alt.textContent = gameQuestions[i]['alternatives']
-        
 
 })
 
