@@ -1,4 +1,4 @@
-let question = document.getElementById('question');
+let question = document.getElementById('myQuestion');
 let answerOne = document.getElementById('answerOne');
 let answerTwo = document.getElementById('answerTwo');
 let answerThree = document.getElementById('answerThree');
@@ -7,15 +7,8 @@ let answerFour = document.getElementById('answerFour');
 
 
 document.addEventListener('DOMContentLoaded', function(){
-    let question = document.getElementbyId('question');
+    let question = document.getElementbyId('myQuestion')
 
-    for (let question of displayQuestion) {
-        
-    }
-
-    function displayQuestion('question'); {
-
-    }
 
 })
 
