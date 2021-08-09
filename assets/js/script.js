@@ -2,13 +2,18 @@ let question = document.getElementById('myQuestion');
 let alternatives = document.getElementsByClassName('alt');
 
 //Start game//
-document.addEventListener('DOMContentLoaded', function() {
-    question.textContent = gameQuestions[0]['question']
-//-------------------------------------------------------------//
-    alternatives.textContent = gameQuestions[0]['alt']
+function startGame() {
 
-    for (let i = 0; i < gameQuestions.length; i++)
-        //_______________________//
+}
+
+
+//Display Question//
+document.addEventListener('DOMContentLoaded', function() {
+    currentQuestion = gameQuestions[0];
+    question.innerHTML = currentQuestion.question;
+
+
+
 
 })
 
@@ -16,14 +21,14 @@ document.addEventListener('DOMContentLoaded', function() {
 //Next question//
 function nextQuestion() {
     for (i=0; i=gameQuestions.length; i++) {
-        question.textContent = gameQuestions[i++]['question']
+        question.textContent = gameQuestions[i++]['question'];
     };
 }
 
 
 //check answer//
 
-function checkAnswer()
+function checkAnswer() {
 
     let correctAnswer = rightAnswer;
 
@@ -32,7 +37,7 @@ function checkAnswer()
     } else {
         document.getElementsByClassName('alt').innerHTML = fontcolor("#f02000")
     };
-
+}
 
 //Increment score//
 
@@ -43,14 +48,14 @@ function incrementScore() {
 
 }
 
-
+/*
 //End Game//
 
 if (gameQuestions[9]) {
     alert(`Congratulations! You got ${counter} points`); 
 }
 
-
+*/
 
 
 
