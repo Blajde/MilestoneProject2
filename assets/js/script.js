@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     alternatives.textContent = gameQuestions[0]['alt']
 
     for (let i = 0; i < gameQuestions.length; i++)
-        
+        //_______________________//
 
 })
 
@@ -25,15 +25,20 @@ function nextQuestion() {
 
 function checkAnswer()
     if (rightAnswer === true) {
-        document.getElementsByClassName('alt'."".fontcolor("#14eb05"))
+        document.getElementsByClassName('alt').innerHTML = fontcolor("#14eb05")
     } else {
-        document.getElementsByClassName('alt'."".fontcolor("#f02000"))
+        document.getElementsByClassName('alt').innerHTML = fontcolor("#f02000")
     };
 
 
 //Increment score//
 
+function incrementScore() {
 
+    let oldScore = parseInt(document.getElementById('counter').innerText);
+    document.getElementById('counter').innerText = ++oldScore;
+
+}
 
 
 
@@ -43,24 +48,14 @@ function checkAnswer()
 
 /*let displayQuestion = getElementById(question);
 
-//Start game//
-function startGame() {
 
-}
-//Display question//
-function displayQuestion(question) {
-    document.getElementById('question').textContent = question;
-}
 //First question//
 function checkAnswer() {
     if checked == rightAnswer(turnGreen)
     } else {
         turnRed
     }
-//Next question//
-function nextQuestion() {
-    onClick == nextQuestion
-}
+
 //Game end//
 function finishGame() {
     if (i = 1; i==10; i++) // alert box//
