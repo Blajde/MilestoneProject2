@@ -44,28 +44,13 @@ function incrementScore() {
 }
 
 
+//End Game//
 
-
-
-
-
-/*let displayQuestion = getElementById(question);
-
-
-//First question//
-function checkAnswer() {
-    if checked == rightAnswer(turnGreen)
-    } else {
-        turnRed
-    }
-
-//Game end//
-function finishGame() {
-    if (i = 1; i==10; i++) // alert box//
+if (gameQuestions[9]) {
+    alert(`Congratulations! You got ${counter} points`); 
 }
-//Getting points//
-function correctAnswer() {
-    document.getElementById("counter")
-}
-//Wrong answer//
-function incorrectAnswer()*/
+
+
+
+
+
