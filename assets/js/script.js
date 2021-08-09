@@ -24,6 +24,9 @@ function nextQuestion() {
 //check answer//
 
 function checkAnswer()
+
+    let correctAnswer = rightAnswer;
+
     if (rightAnswer === true) {
         document.getElementsByClassName('alt').innerHTML = fontcolor("#14eb05")
     } else {
