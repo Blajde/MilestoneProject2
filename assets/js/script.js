@@ -12,7 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
     currentQuestion = gameQuestions[0];
     question.innerHTML = currentQuestion.question;
 
-
+    alts = alternatives[0];
+    alternatives.innerHTML = alts.alternatives;
 
 
 })
