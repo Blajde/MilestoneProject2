@@ -16,6 +16,20 @@
     margin-top: 20px;
 }
 
+#startButton {
+    font-size: 40px;
+
+    overflow: hidden;
+    text-align: center; 
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
 /* quizGame.html */
 
 h1 {
