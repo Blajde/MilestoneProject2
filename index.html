@@ -14,46 +14,8 @@
     <title>VideoGame Quiz</title>
 </head>
 <body>
-    <h1 class="headline"><i class="gamepad fas fa-gamepad"></i>Videogame Quiz</h1>
-    
-    <div class="box container col-12">    
-
-    <!--Start game modal-->
-
-
-    <!--Question area-->
-        <div class="questions container col-4">
-            <h3 class="header">Question</h3>
-                <p id="myQuestion">Placeholder</p>
-
-                <div class="points container">
-                    <p class="points">Points: <span id="counter">0</span></p>
-                </div>
-        </div>
-
-
-
-    <!--Answer alternatives-->
-        <div class="answerBox col-8">
-            <div class="myAlternatives container">
-                <ol>
-                    <li class="alt"><button class="btn btn-lg btn--grey" onclick="checkAnswer();"> Answer1</button></li>
-                    <li class="alt"><button class="btn btn-lg btn--grey" onclick="checkAnswer();"> Answer2</button></li>
-                    <li class="alt"><button class="btn btn-lg btn--grey" onclick="checkAnswer();"> Answer3</button></li>
-                    <li class="alt"><button class="btn btn-lg btn--grey" onclick="checkAnswer();"> Answer4</button></li>
-                </ol>
-
-                <button data-type="nextQuestion" class="nextQuestion btn btn-lg btn--grey d-flex justify-content-end" onclick="nextQuestion();">Next</button>
-            </div>
-
-        </div>
-    <!--Functions-->
-
-
-
+    <div>
+        <button class="btn btn-lg btn--grey" id="startButton"><a href="start-game.html">Start Game</a></button>
     </div>
-
-    <script src="assets/js/questions.js"></script>
-    <script src="assets/js/script.js"></script>
 </body>
 </html>
