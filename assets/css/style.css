@@ -16,11 +16,19 @@
     margin-top: 20px;
 }
 
+.welcomeText {
+    position: relative;
+    display: block;
+    width: 100%;
+
+}
+
 #startButton {
     font-size: 40px;
-
+    position: absolute;
     overflow: hidden;
     text-align: center; 
+
 }
 
 a, a:hover, a:focus, a:active {
@@ -86,7 +94,7 @@ h1 {
 
 
 .answerBox {
-    margin: 5px;
+    margin: 0;
     height: 90%;
     box-sizing: border-box;
     border: 5px solid black;
