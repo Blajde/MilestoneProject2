@@ -1,104 +1,144 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Game Quiz - Milestone Project 2
 
-Welcome Blajde,
+The purpose of this project is to act as an examining project for Code Institutes Full Stack Development course in JavaScript and interactive frontend development.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+The site itself offers a small quiz-game where the user get to test their skill and knowledge of classical video-games. The user will find a single start-button
+that opens up a series of questions where the user will get a point for every correct answer. After answering the last question the user will get a summary 
+of the points scored and an opportunity to play again in order to improve the score and bragging-status.
 
-## Gitpod Reminders
+## User Experience
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* To intuitevly undertand how to start and play the game.
+* To have a seamless experience in starting, playing and finnishing the game.
+* To offer the user a challange and a fun way to test their skills in the stated subject.
 
-`python3 -m http.server`
+#### Mockups
+- ![Start] (link)
+- ![Game Progression] (link)
+- ![Finish] (link)
 
-A blue button should appear to click: _Make Public_,
+## Features
 
-Another blue button should appear to click: _Open Browser_.
+### Existing features:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. When loaded to the browser, the game will have a big, modal-button that starts the game, with a simple message "Start game".
+2. After clicking the "start game"-button, the first question will be loaded, along with four different alternatives for each question.
+3. When clicking an alternative the game responds by making the button green for correct answer, or red for incorrect answer.
+4. For each correct answer the score is incremented by one (+1) for each correct answer
+5. After answering, the user clicks the next question button at the lower right corner of the game-area to load the next question.
+6. There are ten questions to be answered. After the last question have been answered a new modal is loaded with the total score of the player.
+7. On the modal will also be a button named "Try again" that reloads the game and the player gets a new try.
 
-A blue button should appear to click: _Make Public_,
+### Features left to implement:
 
-Another blue button should appear to click: _Open Browser_.
+* Interactive reactions to imerge the user even more in the retro-game style of the quiz.
+* A feature to save the score and compete with other users.
+* Additional questions.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Technologies used:
 
-To log into the Heroku toolbelt CLI:
+For this project most programs that were used worked as support to implement the correct JavaScript programming, as well as lend style
+and functionality to the game.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* HTML5	- One of the main languages to add structure to this project.
+* CSS3	- The other main language to add style and improve user experience.
+* JavaScript - The language used for interactivity and workflow of the page.
+* [Bootstrap](https://getbootstrap.com/) - This framework has been used to add styles, positioning and effects throughout the pages such as navbar, modals and buttons.
+* [Font Awesome](https://fontawesome.com/) - Provided icons and decorations to improve user experience.
+* [Google Fonts](https://fonts.google.com/) - The main library for adding fonts and text-styles.
+* [Github](https://github.com/) - The site for hosting the website and storing the code.
+* [Gitpod](https://www.gitpod.io/) - The tool in which the coding was created.
+* [Balsamiq Wireframes] - The tool in which the mockups and wireframes for this site were created.
+* [w3schools](https://www.w3schools.com/)  - Inspiration, codesearch and troubleshooting.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+## Testing
 
-## Release History
+During development of this game, functionality was tested as development progressed, mainly via GitPod's browser preview to check JavaScript functionality and overall look. 
+Google Chrome's desktop inspect function was used mostly to check responsivity between JavaScript functions in the terminal and also page responsivity to different screen-
+sizes.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Systems:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* [Google Chrome](https://www.google.com/intl/sv/chrome/) - The main web browser when testing the code along with Google Chromes "Inspect"-utility
+* [Microsoft Edge](https://www.microsoft.com/sv-se/edge) - Additional web browser used to test funtionality and look.
+* [Apple IOS v. 13.7](iPad 5th gen) - A md-screen size test funtionality and look.
+* [Android v. 10](Huawei P20) - An xs-screen for testing look and funtionality.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+#### Manual testing - functionality
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+	1. Start game
+		i. Open web-browser
+		ii. Make sure the "Start game" - button appears
+		iii. After clicking the "Start game" - button the first question and associated alternatives appear
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+	2. Play game
+		i. Click one of the associated alternatives for the current question.
+		ii. If correct answer, button turns green and score is incremented by one (+1)
+		iii. If incorrect answer, button turns red and score remains unaffected.
+		iv. When clicking "Next Question" - button a new question and alternatives should appear.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+	3. End game
+		i. After the tenth question have been answered a modal containing total score should appear.
+		ii. On the same modal a button named "Try again" shuold be embedded in the modal.
+		iii. When clicked, the "Try again" - button should restart the game from the first question with a score of 0.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Manual testing - responsiveness
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+	1. Desktop
+		i. Open the webpage in Google Chrome
+		ii. Right-click on the page and select "inspect"
+		iii. Modify the screen size and see if the program adjusts accordingly and stays usable/readable.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+	2. Medium Screen (e.g Ipad)
+		i. Open a web browser.
+		ii. Click the start button and make sure that you get the first quesion and associated answer-alternatives.
+		iii. Click the "Next" - button and make sure that you recieve new questions.
+		vi. Go through all the questions and make sure you get a game-over screen with your total score.
+		v. Click the "try again and make sure the game starts over".
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+	3. Small screen (Smartphone)
+		i. Open a web browser.
+		ii. Click the start button and make sure that you get the first quesion and associated answer-alternatives.
+		iii. Click the "Next" - button and make sure that you recieve new questions.
+		vi. Go through all the questions and make sure you get a game-over screen with your total score.
+		v. Click the "try again and make sure the game starts over".	
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Bugs and issues not adressed
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+This initial deployment fell short in regards of funtionality and responsivness of the webpage. This is due to a difficulty 
+understanding the working mechanisms and how to access those mechanisms with JavaScript from the developers side. As of first 
+submission to Code Institute this project will not in anyway have achieved the goals that has been set and a lot remains to be
+done in case of a resubmission at a later time. Several issues remain because of the aforementioned lack of understanding and
+some features remains to be added due to lack of time on the styling.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Therefore:
+* The page will not load any other questions than the first one.
+* The alternatives will not show up when starting the game. Only the placeholders will appear.
+* The answer-buttons will not react when clicked, more than the visual click associated with the html-button element.
+* The next question button will not load additional questions.
+* The game will not progress in anyway beyond the first question-view.
+* The points will not increment.
+* The end-of-the-game menu has not been added.
+* The final score will not appear.
+* The page is not yet responsive for mobile-first development.
+* Several styling-features remain to be added.
 
-------
 
-## FAQ about the uptime script
+## Deployment
 
-**Why have you added this script?**
+This project was deployed via [GitHub pages] (https://github.com/Blajde/MilestoneProject2/settings).
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+The local repository was regularly saved and pushed to GitHub with delevopment made in GitPod.io.
 
-**How will this affect me?**
+## Credits
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+	Code Institute
+	Oscar
+	Mange
+	Chris
+	- Code Institute Slack community
+	
+	A special thanks to my mentor:
+	- Medale Oluwafemi
