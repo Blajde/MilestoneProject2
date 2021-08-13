@@ -15,10 +15,10 @@ of the points scored and an opportunity to play again in order to improve the sc
 * To offer the user a challange and a fun way to test their skills in the stated subject.
 
 #### Mockups
-- ![Start] (https://github.com/Blajde/MilestoneProject2/blob/main/assets/images/Starting%20Page.png)
-- ![Questions correct answer] (https://github.com/Blajde/MilestoneProject2/blob/main/assets/images/Question%20correct%20answer.png)
-- ![Questions wrong answer] (https://github.com/Blajde/MilestoneProject2/blob/main/assets/images/Question%20wrong%20answer.png)
-- ![End of game] (https://github.com/Blajde/MilestoneProject2/blob/main/assets/images/End%20of%20game.png)
+- ![Start](https://github.com/Blajde/MilestoneProject2/blob/main/assets/images/Starting%20Page.png)
+- ![Questions correct answer](https://github.com/Blajde/MilestoneProject2/blob/main/assets/images/Question%20correct%20answer.png)
+- ![Questions wrong answer](https://github.com/Blajde/MilestoneProject2/blob/main/assets/images/Question%20wrong%20answer.png)
+- ![End of game](https://github.com/Blajde/MilestoneProject2/blob/main/assets/images/End%20of%20game.png)
 
 ## Features
 
