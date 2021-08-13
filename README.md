@@ -6,16 +6,19 @@ The site itself offers a small quiz-game where the user get to test their skill 
 that opens up a series of questions where the user will get a point for every correct answer. After answering the last question the user will get a summary 
 of the points scored and an opportunity to play again in order to improve the score and bragging-status.
 
+*NOTE! Upon submission of this project, the website is not yet functional in the reagrd as it is intended. For more information view section "Bugs and issues not adressed".
+
 ## User Experience
 
-* To intuitevly undertand how to start and play the game.
-* To have a seamless experience in starting, playing and finnishing the game.
+* To intuitevly understand how to start and play the game.
+* To have a seamless experience in starting, playing and finishing the game.
 * To offer the user a challange and a fun way to test their skills in the stated subject.
 
 #### Mockups
-- ![Start] (link)
-- ![Game Progression] (link)
-- ![Finish] (link)
+- ![Start] (https://github.com/Blajde/MilestoneProject2/blob/main/assets/images/Starting%20Page.png)
+- ![Questions correct answer] (https://github.com/Blajde/MilestoneProject2/blob/main/assets/images/Question%20correct%20answer.png)
+- ![Questions wrong answer] (https://github.com/Blajde/MilestoneProject2/blob/main/assets/images/Question%20wrong%20answer.png)
+- ![End of game] (https://github.com/Blajde/MilestoneProject2/blob/main/assets/images/End%20of%20game.png)
 
 ## Features
 
@@ -31,7 +34,7 @@ of the points scored and an opportunity to play again in order to improve the sc
 
 ### Features left to implement:
 
-* Interactive reactions to imerge the user even more in the retro-game style of the quiz.
+* Interactive reactions to emerge the user even more in the retro-game style of the quiz.
 * A feature to save the score and compete with other users.
 * Additional questions.
 
@@ -43,21 +46,21 @@ and functionality to the game.
 * HTML5	- One of the main languages to add structure to this project.
 * CSS3	- The other main language to add style and improve user experience.
 * JavaScript - The language used for interactivity and workflow of the page.
-* [Bootstrap](https://getbootstrap.com/) - This framework has been used to add styles, positioning and effects throughout the pages such as navbar, modals and buttons.
+* [Bootstrap](https://getbootstrap.com/) - This framework has been used to add styles, positioning and effects throughout the pages.
 * [Font Awesome](https://fontawesome.com/) - Provided icons and decorations to improve user experience.
 * [Google Fonts](https://fonts.google.com/) - The main library for adding fonts and text-styles.
 * [Github](https://github.com/) - The site for hosting the website and storing the code.
 * [Gitpod](https://www.gitpod.io/) - The tool in which the coding was created.
-* [Balsamiq Wireframes] - The tool in which the mockups and wireframes for this site were created.
+* [Balsamiq Wireframes](https://balsamiq.com/wireframes/?gclid=CjwKCAjwsNiIBhBdEiwAJK4khu9EQ27ygdRJvQUFqBQkoBzQp0AZfQ3EvyJtonmeiEpHCB4mxe1IYRoCRg4QAvD_BwE) - The tool in which the mockups and wireframes for this site were created.
 * [w3schools](https://www.w3schools.com/)  - Inspiration, codesearch and troubleshooting.
 
 
 ## Testing
+NOTE! As this site is not yet functional to a satisfactory degree, some of the testing has yet to be adressed in order to have a functional website.
 
 During development of this game, functionality was tested as development progressed, mainly via GitPod's browser preview to check JavaScript functionality and overall look. 
 Google Chrome's desktop inspect function was used mostly to check responsivity between JavaScript functions in the terminal and also page responsivity to different screen-
 sizes.
-
 
 Systems:
 
@@ -134,11 +137,17 @@ The local repository was regularly saved and pushed to GitHub with delevopment m
 
 ## Credits
 
-	Code Institute
-	Oscar
-	Mange
-	Chris
-	- Code Institute Slack community
+* Acknowledgements
+
+	Thank you to:
+	- Code Institute - For providing basic knowledge and support.
+	- Oscar Blide - Family member whom I could consult in several of the challanges I faced in this development.
+	- Magnus Johansson - Friend whom I could consult in several of the challanges I faced in this development.
 	
-	A special thanks to my mentor:
-	- Medale Oluwafemi
+	- Chris Quinn - My newly appointed mentor who showed patience and understanding from the start, as well as guidance, in this challanging project. 
+	Even though i couldn't follow through completely.
+
+	- Code Institute Slack community - For giving quick answers to all issues concerning project and coding.
+	- Code Institute Tutor Assistance - I admire how they're all able to answer questions without giving out the answers.
+	
+
